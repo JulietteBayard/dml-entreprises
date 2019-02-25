@@ -1,31 +1,58 @@
 <div class="container text-center">
-  <h2>Bienvenue sur DML Entreprises </h2>
+  <div class="title">
+        <h3>Bienvenue </h3><h3><i> - Découvrez nos produits</i></h3>
+  </div>
+
   <div class="row">
 
     <div class="col-xs-12 col-md-4 col-sm-6">
-      <div class="card" style="background-image:url(images/Wallgate/wallgate-screen.png)">
+      <div class="card" style="background-image:url(images/Wallgate/handwash.png)">
         <div class="card-content">
-          <h3>Wallgate</h3>
+          <ul>
+            <li>
+              <h3>Wallgate</h3>
+            </li>
+            <li>
+              <h5><i>sanitaires sécurisés</i></h5>
+            </li>
+          </ul>
         </div>
-        <input value="Découvrir" class=" btn button btn-primary"/>
+        <%= link_to "Découvrir", "/wallgate.html", class: "my-btn btn btn-primary" %>
       </div>
     </div>
 
     <div class="col-xs-12 col-md-4 col-sm-6">
       <div class="card" style="background-image:url(images/Kingsway/door.jpg)">
         <div class="card-content">
-          <h3>Kingsway</h3>
+          <ul>
+            <li>
+              <h3>Kingsway</h3>
+            </li>
+            <li>
+              <h5><i>portes sécurisées</i></h5>
+            </li>
+
+          </ul>
         </div>
-        <input value="Découvrir" class="btn button btn-primary"/>
+      <%= link_to "Découvrir", "/kingsway.html", class: "my-btn btn btn-primary" %>
       </div>
     </div>
 
     <div class="col-xs-12 col-md-4 col-sm-6">
       <div class="card" style="background-image:url(images/Decoustics/plafond.jpg)">
         <div class="card-content">
-          <h3>Decoustics</h3>
+          <ul>
+            <li>
+              <h3>Decoustics</h3>
+            </li>
+            <li>
+              <h6><i>plafonds acoustiques haut de gamme</i></h6>
+            </li>
+          </ul>
+
+
         </div>
-        <input value="Découvrir" class="btn button btn-primary"/>
+        <%= link_to "Découvrir", "/decoustics.html", class: "my-btn btn btn-primary" %>
       </div>
     </div>
 

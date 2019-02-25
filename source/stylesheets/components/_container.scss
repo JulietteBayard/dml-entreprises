@@ -1,8 +1,20 @@
 .container {
   margin-top: 70px;
-  background-image: url(images/Decoustics/plafond-fond-2.jpg);
   h2 {
     color: $blue;
     opacity: 0.8;
   }
 }
+
+#background {
+  width: 100%;
+  background-size: cover;
+}
+
+.title {
+  display: inline-flex;
+h3 {
+  color: $blue;
+}
+}
+

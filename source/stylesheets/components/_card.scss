@@ -3,15 +3,18 @@
   background: white;
   background-image: linear-gradient(black, 0.2);
   background-size: cover;
-  border-radius: 4px;
   color: white;
+  border-radius: 6px;
   margin-top: 30px;
   width: 350px;
   height: 400px;
+  transform: perspective(1px) translateZ(0);
+  transition-property: transform;
+  transition-duration: 0.3s;
   &:hover {
-    margin-top: 3px;
-    box-shadow: 4px 4px 1px 1px rgba(184,184,184,1);
-    transition: all 0.8s ease;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: translateY(-8px);
   }
 }
 
@@ -19,11 +22,20 @@
   background-color: white;
   opacity: 0.8;
   display: flex;
-  opacity: 0.7;
   height: 90px;
   justify-content: center;
-  h3 {
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+
+  h3, h5, h6 {
     color: $blue;
+    margin: 15px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -31,11 +43,11 @@
   width: 500px;
   height: 300px;
   border-radius: 4px;
-  margin: 20px;
   background-size: cover;
   margin: auto;
-  margin-top: 20px;
+
 }
+
 .card-content-contact {
   width: 500px;
   height:300px;
