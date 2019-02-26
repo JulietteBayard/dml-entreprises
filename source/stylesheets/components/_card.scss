@@ -18,6 +18,7 @@
   }
 }
 
+// cards de la home page
 .card-content {
   background-color: white;
   opacity: 0.8;
@@ -39,6 +40,18 @@
   }
 }
 
+.card-product {
+  background-color: white;
+  opacity: 0.8;
+  display: flex;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px;
+}
+
 .card-contact {
   width: 500px;
   height: 300px;
@@ -51,7 +64,6 @@
 .card-content-contact {
   width: 500px;
   height:300px;
-
   background-color: rgba(255, 255, 255, 0.6);
   padding: 20px 20px;
   margin-top: 20px;
@@ -67,3 +79,72 @@
 .marge {
 margin-left: 2em;
 }
+
+// cards produits page Wallgate
+.card-wallgate {
+  position: relative;
+  background: white;
+  border-radius: 6px;
+  margin: 30px auto;
+  width: 450px;
+}
+
+.card-description{
+  background-color: white;
+  opacity: 0.8;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.card-image {
+  background-image: linear-gradient(black, 0.2);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 280px;
+  background-position: center;
+}
+
+.card-button {
+  height: 60px;
+  background-color: white;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.img__description {
+  position: absolute;
+  padding: 10px;
+  border-radius: 5px;
+  top: 40px;
+  bottom: 60px;
+  left: 0;
+  right: 150px;
+  background: rgba(255, 255, 255, 0.72);
+  color: $blue;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.card-wallgate:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+// logo Wallgate page Wallgate
+.card-wallgate-logo {
+width: 500px;
+margin-top: 20px;
+display: flex;
+border-radius: 10px;
+box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+
+

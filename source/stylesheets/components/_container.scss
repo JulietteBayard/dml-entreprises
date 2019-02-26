@@ -1,5 +1,6 @@
 .container {
   margin-top: 70px;
+  margin-bottom: 100px;
   h2 {
     color: $blue;
     opacity: 0.8;
@@ -18,3 +19,8 @@ h3 {
 }
 }
 
+.logo {
+  border-radius: 3px;
+  display: flex;
+  align-items: left;
+}
