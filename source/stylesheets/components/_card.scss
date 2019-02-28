@@ -81,7 +81,7 @@ margin-left: 2em;
 }
 
 // cards produits page Wallgate
-.card-wallgate {
+.card-entreprise {
   position: relative;
   background: white;
   border-radius: 6px;
@@ -136,29 +136,30 @@ margin-left: 2em;
   // box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.card-wallgate:hover .img__description {
+.card-entreprise:hover .img__description {
   visibility: visible;
   opacity: 1;
 }
 // Ce qui contient le logo Wallgate & la description page Wallgate
 
-.wallgate-presentation {
+.entreprise-presentation {
   display: flex;
 }
 
-// logo Wallgate page Wallgate
-.card-wallgate-logo {
+// logo entreprise page
+.card-entreprise-logo {
 width: 500px;
 height: 100px;
 margin-top: 20px;
 margin-right: 20px;
+object-fit: cover;
 display: flex;
 border-radius: 10px;
 box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
-// Description Wallgate à côté du logo
-.wallgate-desription {
+// Description à côté du logo
+.entreprise-description {
   background-color: white;
   color: $blue;
   height: 100px;
