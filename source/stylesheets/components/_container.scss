@@ -5,10 +5,18 @@
     color: $blue;
     opacity: 0.8;
   }
+  background-color: transparent;
 }
 
-#background {
+
+.container-contact {
   width: 100%;
+  height: -webkit-fill-available;
+  background-image: url(/images/Decoustics/Solo.jpg);
+  // background-size: cover;
+  background-attachment: fixed;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -23,4 +31,9 @@ h3 {
   border-radius: 3px;
   display: flex;
   align-items: left;
+}
+
+//pour faire un tab sur l'adresse dans la page contact
+.marge {
+margin-left: 18px;
 }
