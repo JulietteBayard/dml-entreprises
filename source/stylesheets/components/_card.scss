@@ -80,7 +80,7 @@
 margin-left: 2em;
 }
 
-// cards produits page Wallgate
+// cards produits page Wallgate et autres
 .card-entreprise {
   position: relative;
   background: white;
@@ -140,6 +140,12 @@ margin-left: 2em;
   visibility: visible;
   opacity: 1;
 }
+
+// Une autre class pour les card de Decoustics
+.img-card {
+  margin: 10px;
+}
+
 // Ce qui contient le logo Wallgate & la description page Wallgate
 
 .entreprise-presentation {
