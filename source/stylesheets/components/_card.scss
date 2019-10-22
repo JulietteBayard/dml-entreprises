@@ -56,18 +56,24 @@
   width: 500px;
   height: 300px;
   border-radius: 4px;
-  background-size: cover;
-  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  height: 300px;
+  margin-left: -250px;
+  margin-top: -150px;
 
 }
 
 .card-content-contact {
   width: 500px;
   height:300px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px 20px;
   margin-top: 20px;
   text-align: left;
+  border-radius: 5px;
   p {
     color: #3d3434;
     opacity: 1;
