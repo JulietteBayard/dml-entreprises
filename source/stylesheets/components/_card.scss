@@ -134,11 +134,14 @@ margin-left: 2em;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
   // box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.5);
-}
 
+}
+//Quand on passe en hover sur les cards
 .card-entreprise:hover .img__description {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
+    height: 110px;
+    padding-top: 30px;
 }
 
 // Une autre class pour les card de Decoustics
@@ -154,8 +157,8 @@ margin-left: 2em;
 
 // logo entreprise page
 .card-entreprise-logo {
-width: 500px;
-height: 100px;
+width: auto;
+height: 140px;
 margin-top: 20px;
 margin-right: 20px;
 object-fit: cover;
@@ -167,8 +170,9 @@ box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 // Description à côté du logo
 .entreprise-description {
   background-color: white;
+  align-items: center;
   color: $blue;
-  height: 100px;
+  height: 140px;
   border-radius: 6px;
   width: 500px;
   padding: 10px;
